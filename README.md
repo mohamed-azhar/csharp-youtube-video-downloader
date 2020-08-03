@@ -20,3 +20,4 @@ The console app utilizes the use of an awesome library called [YoutubeExplode](h
 #### To Do
 * FIX THE BUGS 😪
 * COMMENT COMMENT COMMENT 😁
+* REFACTOR THE CURRENT SPAGHETTI CODE 😑
