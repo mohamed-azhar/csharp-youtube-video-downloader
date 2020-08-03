@@ -4,6 +4,7 @@ The console app utilizes the use of an awesome library called [YoutubeExplode](h
 
 #### Features
 * Single File Download (from a selection of available formats) 
+* Playlist downloads (will be done maybe tomorrow. please get the joke 😉)
 * Download Progress Indicator 
 * Saving to directory of your choice 
 * Surprising Bugs 😝
