@@ -43,6 +43,12 @@ Generated\ Files/
 *.VisualState.xml
 TestResult.xml
 
+# Publish profiles
+*.[Pp]ublish.xml
+*.azurePubxml
+*.pubxml
+*.publishproj
+
 # Build Results of an ATL Project
 [Dd]ebugPS/
 [Rr]eleasePS/

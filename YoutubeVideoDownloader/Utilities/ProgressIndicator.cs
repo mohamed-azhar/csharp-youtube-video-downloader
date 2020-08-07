@@ -4,25 +4,24 @@ namespace YoutubeVideoDownloader.Utilities
 {
     public class ProgressIndicator : IProgress<double>, IDisposable
     {
-        private readonly int _posX;
-        private readonly int _posY;
+        private readonly int _positionX;
+        private readonly int _positionY;
 
         public ProgressIndicator()
         {
-            _posX = Console.CursorLeft;
-            _posY = Console.CursorTop;
+            _positionX = Console.CursorLeft;
+            _positionY = Console.CursorTop;
         }
 
         public void Report(double progress)
         {
-            Console.SetCursorPosition(_posX, _posY);
+            Console.SetCursorPosition(_positionX, _positionY);
             Console.WriteLine($"{progress:P1}");
         }
 
         public void Dispose()
         {
-            Console.SetCursorPosition(_posX, _posY);
-            Console.WriteLine("Completed ✓");
+            Console.SetCursorPosition(_positionX, _positionY);
         }
     }
 }
